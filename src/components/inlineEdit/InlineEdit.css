@@ -1,0 +1,18 @@
+.edit-input {
+  background-color: transparent;
+  border: 0;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.edit-input:hover {
+  background-color: #d3d3d3;
+  cursor: pointer;
+  border: none;
+  outline: blue;
+}
+
+.edit-input:focus-visible {
+  outline: blue;
+}

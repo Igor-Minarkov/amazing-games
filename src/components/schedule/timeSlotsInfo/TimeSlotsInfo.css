@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.current-table-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.timeslots {
+  width: 150px;
+}

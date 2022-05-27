@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(-45deg, #88b0bf, #77afc4, #5aa7c9, #ade2f5);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.wrapper {
+  border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper > div {
+  width: 33.3333%;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper > div > a {
+  padding: 0px 20px;
+}
+
+button {
+  color: white;
+  background: black;
+  padding: 7px;
+  border-radius: 9px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(68, 65, 65);
+}
+
+.basic-flex {
+  display: flex;
+}

@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.main-title {
+  width: 150px;
+}
+
+.presenters {
+  font-weight: bold;
+}
