@@ -1,4 +1,23 @@
-[[_TOC_]]
+- [Project installation](#project-installation)
+- [Project Architecture](#project-architecture)
+  * [Components](#components)
+    + [Dashboard](#dashboard)
+      - [DashboardDetails](#dashboarddetails)
+        * [InlineEdit](#inlineedit)
+        * [Modal](#modal)
+    + [MainView](#mainview)
+      - [Header](#header)
+      - [MainViewDetails](#mainviewdetails)
+    + [Schedule](#schedule)
+      - [PresetersView](#presetersview)
+      - [TimeSlotsInfo](#timeslotsinfo)
+  * [Context Api](#context-api)
+  * [Data](#data)
+    + [Mock Data](#mock-data)
+  * [Unit tests](#unit-tests)
+- [Dependencies](#dependencies)
+  * [React router v6 implementation.](#react-router-v6-implementation)
+ - [Design & Responsiveness](#dependencies)
 
 # Project installation
 
