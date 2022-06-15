@@ -17,7 +17,7 @@ const BoxShadowBox = styled("div")(
   ({ theme }) => `
   margin: ${theme.spacing(1)};
   padding: ${theme.spacing(2)};
-  border:1px solid black;
+  border:1px solid #F8F8FF;
   box-shadow: ${theme.shadows[7]};
 `
 );
@@ -97,7 +97,7 @@ function Dashboard() {
             required
             sx={{
               mr: 1,
-              backgroundColor: "white",
+              backgroundColor: "#F8F8FF",
               outline: "none",
               borderRadius: "4px",
             }}
@@ -130,8 +130,8 @@ function Dashboard() {
                     key={data.id}
                     sx={{
                       p: 2,
-                      backgroundColor: "white",
-                      border: "3px solid white",
+                      backgroundColor: "#F8F8FF",
+                      border: "3px solid #F8F8FF",
                     }}
                   >
                     <DashboardDetails
@@ -153,8 +153,8 @@ function Dashboard() {
                 key={data.id}
                 sx={{
                   p: 2,
-                  backgroundColor: "white",
-                  border: "3px solid white",
+                  backgroundColor: "#F8F8FF",
+                  border: "3px solid #F8F8FF",
                 }}
               >
                 <DashboardDetails

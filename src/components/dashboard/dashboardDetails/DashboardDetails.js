@@ -35,7 +35,7 @@ const DashboardDetails = ({ name, id, customData, setter }) => {
         </h2>
         <button
           onClick={() => deleteData(id, customData, setter)}
-          style={{ background: "black", color: "white" }}
+          style={{ background: "black", color: "#F8F8FF" }}
         >
           Yes, please
         </button>
