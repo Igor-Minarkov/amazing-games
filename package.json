@@ -32,10 +32,17 @@
     ]
   },
   "devDependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^14.2.0",
+    "install": "^0.13.0",
     "jest-axe": "^6.0.0",
     "jest-watch-typeahead": "^0.6.5",
+    "npm": "^8.12.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",

@@ -1,20 +1,7 @@
 body {
-  background: linear-gradient(-45deg, #88b0bf, #77afc4, #5aa7c9, #ade2f5);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  height: 100vh;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+  background: #001e3c;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .wrapper {
@@ -36,14 +23,14 @@ body {
 
 button {
   color: white;
-  background: black;
-  padding: 7px;
+  background: #3399ff;
+  padding: 9px;
   border-radius: 9px;
+  border: none;
 }
 
 button:hover {
   cursor: pointer;
-  background-color: rgb(68, 65, 65);
 }
 
 .basic-flex {

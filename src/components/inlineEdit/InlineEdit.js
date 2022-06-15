@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { AppContext } from "../../context/AppContext";
-import "./InlineEdit.css";
+import TextField from "@mui/material/TextField";
 
 const InlineEdit = ({ value, setValue, id, customData, setter }) => {
   const [editingValue, setEditingValue] = useState(value);
@@ -23,8 +23,11 @@ const InlineEdit = ({ value, setValue, id, customData, setter }) => {
   };
 
   return (
-    <input
-      className="edit-input"
+    <TextField
+      sx={{ m: 1 }}
+      size="small"
+      id="outlined-basic"
+      variant="outlined"
       type="text"
       aria-label="Field name"
       value={editingValue}

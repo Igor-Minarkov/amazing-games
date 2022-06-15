@@ -2,7 +2,8 @@ import React, { Fragment, useContext, useState } from "react";
 import { AppContext } from "../../../context/AppContext";
 import InlineEdit from "../../inlineEdit/InlineEdit";
 import Modal from "../../modal/Modal";
-import "./DashboardDetails.css";
+import Button from "@mui/material/Button";
+import Box from "@mui/material/Box";
 
 const DashboardDetails = ({ name, id, customData, setter }) => {
   const { deleteData } = useContext(AppContext);
@@ -11,7 +12,7 @@ const DashboardDetails = ({ name, id, customData, setter }) => {
 
   return (
     <Fragment>
-      <span className="basic-flex presenter-wrapper">
+      <Box>
         <InlineEdit
           value={name}
           setValue={setValue}
@@ -19,13 +20,23 @@ const DashboardDetails = ({ name, id, customData, setter }) => {
           customData={customData}
           setter={setter}
         />
-        <button onClick={() => setShow(true)}>Delete</button>
-      </span>
+        <Button
+          sx={{ m: 1 }}
+          variant="contained"
+          size="medium"
+          onClick={() => setShow(true)}
+        >
+          Delete
+        </Button>
+      </Box>
       <Modal show={show} onClose={() => setShow(false)}>
         <h2>
           This action will delete the target. If you want to proceed, click yes
         </h2>
-        <button onClick={() => deleteData(id, customData, setter)}>
+        <button
+          onClick={() => deleteData(id, customData, setter)}
+          style={{ background: "black", color: "white" }}
+        >
           Yes, please
         </button>
       </Modal>

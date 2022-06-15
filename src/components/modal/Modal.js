@@ -23,6 +23,8 @@ const Modal = ({ modalStyle, children, show, onClose, backdropStyle }) => {
             right: 0,
             margin: "1rem",
             cursor: "pointer",
+            background: "black",
+            color: "white",
           }}
           className={styles.close__btn}
         >
